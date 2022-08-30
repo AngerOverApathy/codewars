@@ -13,6 +13,7 @@
 // console.log(abbrevName('Julius Ceasar'), 'J.C.')
 // console.log(abbrevName('Harley Quinn'), 'H.Q.')
 
+
 //    ~CHALLENGE 2~
 // create a function that takes in 4 numbers and adds the first 3, and divides by the 4th
 //return the result
@@ -30,9 +31,24 @@
 
 //    ~CHALLENGE 3
 // create a function that takes in 2 numbers, console log first number to power of second
-function exponents(num1, num2) {
-    let result = num1 ** num2
-    return result
+// function exponents(num1, num2) {
+//     let result = num1 ** num2
+//     return result
+// }
+
+// console.log(exponents(4, 2))
+
+//     ~CHALLENGE4~
+//create a conditional that takes a boolean and a string
+//if the boolean is true, alert string, if false, console log string
+
+function alertTrue(word) {
+    if (word === 'yes') {
+        alert(word, 'TRUE!')
+    } else {
+        console.log(word, 'false')
+    }
 }
 
-console.log(exponents(4, 2))
+console.log(alertTrue('yes'), 'true')
+console.log(alertTrue('boo'), 'false')
