@@ -49,11 +49,15 @@
 // create a conditional that takes a boolean and a string
 // if the boolean is true, alert string, if false, console log string
 
-function alertTrue(b, str) {
-    b ? alert(true) : console.log(str)
-}
-console.log(alertTrue(true, 'i am true'))
-console.log(alertTrue(false, 'i am false'))
+// function alertTrue(b, str) {
+//     b ? alert(str) : console.log(str)
+// }
+
+//        OR
+//const alertTrue = (b, str) => b ? alert(str) : console.log(str)
+
+// console.log(alertTrue(true, 'am i true?'))
+// console.log(alertTrue(false, 'am i true?'))
 
 
 //        ~CHALLENGE 5~
@@ -62,18 +66,18 @@ console.log(alertTrue(false, 'i am false'))
 //if the number is divisible by 5 log buzz instead of the number
 //if the number is divisible by 3 and 5, log fizzbuzz instead of that number
 
-// function fizzBuzz(count, num) {
-//     for (count = 0; count < num; count++) {
-//         if (count % 3 === 0 && num % 5 ===0 ) {
-//             console.log(count + 'fizzbuzz')
-//         } else if (count % 3 === 0) {
-//             console.log(count + 'fizz')
-//         } else if (count % 5 === 0) {
-//             console.log(count, 'buzz')
-//         } else {
-//             console.log(count)
-//         }
-//     }
-// }
+function fizzBuzz(count, num) {
+    for (count = 0; count < num; count++) {
+        if (count % 3 === 0 && num % 5 ===0 ) {
+            console.log(count + 'fizzbuzz')
+        } else if (count % 3 === 0) {
+            console.log(count + 'fizz')
+        } else if (count % 5 === 0) {
+            console.log(count, 'buzz')
+        } else {
+            console.log(count)
+        }
+    }
+}
 
-// console.log(fizzBuzz(1, 700))
+console.log(fizzBuzz(1, 700))
