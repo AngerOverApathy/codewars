@@ -83,3 +83,4 @@
 // console.log(fizzBuzz(700))
 
 //         CODEWARS CHALLENGE
+//abreviate the name into initials
