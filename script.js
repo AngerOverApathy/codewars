@@ -83,4 +83,11 @@
 // console.log(fizzBuzz(700))
 
 //         CODEWARS CHALLENGE
-//abreviate the name into initials
+//abbreviate the name into initials
+function abbrevName(name){
+
+    return name.split(' ').map(i => i[0].toUpperCase()).join('.')
+
+}
+
+console.log(abbrevName('John Smith'))
