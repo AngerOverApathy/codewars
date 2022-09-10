@@ -89,3 +89,6 @@
 // }
 
 // console.log(abbrevName('John Smith'))
+
+//       ~CHALLENGE 6~
+//create an array of movies with at least 3 movies
