@@ -92,3 +92,4 @@
 
 //       ~CHALLENGE 6~
 //create an array of movies with at least 3 movies
+//using the array from above, use the first movie in a variable
