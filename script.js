@@ -94,3 +94,4 @@
 //create an array of movies with at least 3 movies
 //using the array from above, use the first movie in a new variable
 //get the length of the original array and put in new variable
+//get the last element in the array (create solution that allows for not knowing the length of the array)
