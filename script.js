@@ -92,6 +92,11 @@
 
 //       ~CHALLENGE 6~
 //create an array of movies with at least 3 movies
+let movieArray = ['Parasyte', 'Castaway on the Moon', 'Everything Everywhere All At Once']
+
 //using the array from above, use the first movie in a new variable
+let firstMovie = movieArray[0]
 //get the length of the original array and put in new variable
+let movieArrayLength = movieArray.length
+console.log(movieArrayLength)
 //get the last element in the array (create solution that allows for not knowing the length of the array)
