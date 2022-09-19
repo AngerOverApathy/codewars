@@ -1,3 +1,8 @@
+let answer = document.getElementById('show-text')
+
+
+
+
 //           ~CHALLENGE 1~
 //grab just the initials from a full name
 //i.e Andrew Jackson should print as A.J.
@@ -92,13 +97,21 @@
 
 //       ~CHALLENGE 6~
 //create an array of movies with at least 3 movies
-let movieArray = ['Parasyte', 'Castaway on the Moon', 'Everything Everywhere All At Once']
+// let movieArray = ['Parasyte', 'Castaway on the Moon', 'Everything Everywhere All At Once']
 
-//using the array from above, use the first movie in a new variable
-let firstMovie = movieArray[0]
-//get the length of the original array and put in new variable
-let movieArrayLength = movieArray.length
-console.log(movieArrayLength)
-//get the last element in the array (create solution that allows for not knowing the length of the array)
-let lastMovie = movieArray[movieArray.length-1] //use the index to grab the element, .length will give element amount
-console.log(lastMovie)
+// //using the array from above, use the first movie in a new variable
+// let firstMovie = movieArray[0]
+// //get the length of the original array and put in new variable
+// let movieArrayLength = movieArray.length
+// console.log(movieArrayLength)
+// //get the last element in the array (create solution that allows for not knowing the length of the array)
+// let lastMovie = movieArray[movieArray.length-1] //use the index to grab the element, .length will give element amount
+// console.log(lastMovie)
+
+
+//         ~ARRAY PRACTICE~
+//create an array of movie titles, loop through the array and each element to an h2
+
+//create an array of numbers, loop through array and add 3 to each number and replace the old number
+
+//find the average of all the previous numbers
