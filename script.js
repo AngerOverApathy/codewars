@@ -100,5 +100,5 @@ let firstMovie = movieArray[0]
 let movieArrayLength = movieArray.length
 console.log(movieArrayLength)
 //get the last element in the array (create solution that allows for not knowing the length of the array)
-let lastMovie = movieArray[movieArray.length-1]
+let lastMovie = movieArray[movieArray.length-1] //use the index to grab the element, .length will give element amount
 console.log(lastMovie)
