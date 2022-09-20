@@ -111,7 +111,15 @@ let answer = document.getElementById('show-text')
 
 //         ~ARRAY PRACTICE~
 //create an array of movie titles, loop through the array and each element to an h2
+// let movies = ['Parasyte', 'Castaway on the Moon', 'Everything Everywhere All At Once']
+// answer.innerHTML = movies.forEach((x, i) => x,i)
+//OR
+for (let i = 0; i < movies.length; i++) {
+    document.querySelector('h2').innerText += movies[i]
+}
 
 //create an array of numbers, loop through array and add 3 to each number and replace the old number
+let numbers = [1,2,3,4,5]
+console.log(numbers.forEach((x) => x+3))
 
 //find the average of all the previous numbers
