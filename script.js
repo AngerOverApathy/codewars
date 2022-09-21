@@ -1,4 +1,4 @@
-let answer = document.getElementById('show-text')
+// let answer = document.getElementById('show-text')
 
 
 
@@ -114,9 +114,9 @@ let answer = document.getElementById('show-text')
 // let movies = ['Parasyte', 'Castaway on the Moon', 'Everything Everywhere All At Once']
 // answer.innerHTML = movies.forEach((x, i) => x,i)
 //OR
-for (let i = 0; i < movies.length; i++) {
-    document.querySelector('h2').innerText += movies[i]
-}
+// for (let i = 0; i < movies.length; i++) {
+//     document.querySelector('h2').innerText += movies[i]
+// }
 
 //create an array of numbers, loop through array and add 3 to each number and replace the old number
 let numbers = [1,2,3,4,5]
