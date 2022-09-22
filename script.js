@@ -1,4 +1,4 @@
-// let answer = document.getElementById('show-text')
+let answer = document.getElementById('show-text')
 
 
 
@@ -119,7 +119,7 @@
 // }
 
 //create an array of numbers, loop through array and add 3 to each number and replace the old number
-let numbers = [1,2,3,4,5]
-console.log(numbers.forEach((x) => x+3))
+// let numbers = [1,2,3,4,5]
+// console.log(numbers.forEach((x) => x+3))
 
 //find the average of all the previous numbers
