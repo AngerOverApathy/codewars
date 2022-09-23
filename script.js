@@ -126,3 +126,4 @@ numbers.forEach((element, i) => {
 console.log(numbers)
 
 //find the average of all the previous numbers
+
