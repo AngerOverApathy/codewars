@@ -127,3 +127,5 @@ console.log(numbers)
 
 //find the average of all the previous numbers
 let sum = 0
+
+numbers.forEach((numbers) => sum += numbers)
