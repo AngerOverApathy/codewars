@@ -1,8 +1,18 @@
-let answer = document.getElementById('show-text')
 
+//          PRACTICE
+//declare a variable, reassign in to your favorite food and alert the value
+// let faveFood = 'sinigang'
+// faveFood = 'Pho'
+// alert(faveFood)
+//declare a variable, assign it a string, alert the second character in your string
+// let str = 'Here is a string'
+// alert(str[1])
 
+//create a function
 
+//////////////////////////////////////////////////////////////////////////
 
+// let answer = document.getElementById('show-text')
 //           ~CHALLENGE 1~
 //grab just the initials from a full name
 //i.e Andrew Jackson should print as A.J.
@@ -119,17 +129,19 @@ let answer = document.getElementById('show-text')
 // }
 
 //create an array of numbers, loop through array and add 3 to each number and replace the old number
-let numbers = [10,20,30,40,50]
-numbers.forEach((element, i) => {
-    numbers[i] = element + 3
-})
-console.log(numbers)
+// let numbers = [10,20,30,40,50]
+// numbers.forEach((element, i) => {
+//     numbers[i] = element + 3
+// })
+// console.log(numbers)
 
-//find the average of all the previous numbers
-let sum = 0
-numbers.forEach((numbers) => sum += numbers)
-//OR
-for (let i =0; i < numbers.length; i++) {
-    sum += numbers[i]
-}
-console.log(sum)
+// //find the average of all the previous numbers
+// let sum = 0
+// numbers.forEach((numbers) => sum += numbers)
+// //OR
+// for (let i =0; i < numbers.length; i++) {
+//     sum += numbers[i]
+// }
+// console.log(sum)
+
+
