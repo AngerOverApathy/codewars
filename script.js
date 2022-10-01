@@ -8,7 +8,16 @@
 // let str = 'Here is a string'
 // alert(str[1])
 
-//create a function
+// function mathStorm(num1, num2, num3) {
+//     let total = (num1 / num2) * num3
+//     alert(total)
+// }
+// mathStorm(25,5,7)
+
+// function mathCube(num1) {
+//     console.log(Math.cbrt(num1))
+// }
+// mathCube(5)
 
 //////////////////////////////////////////////////////////////////////////
 
