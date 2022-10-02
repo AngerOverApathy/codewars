@@ -18,6 +18,15 @@
 //     console.log(Math.cbrt(num1))
 // }
 // mathCube(5)
+function summertime(month) {
+    if (month === 'June' || 'July' || 'August') {
+        console.log('yay')
+    } else {
+        console.log('Boo')
+    }
+}
+summertime('July')
+
 
 //////////////////////////////////////////////////////////////////////////
 
