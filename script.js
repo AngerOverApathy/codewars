@@ -27,6 +27,18 @@
 // }
 // summertime('July')
 
+function skipFive(num) {
+    for (let i=0; i < num; i++) {
+        if (i % 5 === 0) {
+            console.log('')
+        } else {
+            console.log(i)
+        }
+    }
+}
+
+skipFive(850)
+
 
 //////////////////////////////////////////////////////////////////////////
 
