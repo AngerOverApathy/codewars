@@ -29,9 +29,7 @@
 
 // function skipFive(num) {
 //     for (let i=0; i < num; i++) {
-//         if (i % 5 === 0) {
-//             console.log('')
-//         } else {
+//         if (i % 5 !== 0) {
 //             console.log(i)
 //         }
 //     }
