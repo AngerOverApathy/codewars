@@ -175,7 +175,6 @@
 //create a function that takes an array. if the first number is < the last number, alert 'hi', if > last number, alert 'bye
 //if =, alert 'we close in an hour'
 let num = [50, 20, 30, 40, 50]
-
 function numSize() {
     if (num[0] < num.at(-1)) {
         alert('Hi')
@@ -185,6 +184,6 @@ function numSize() {
         alert('We close in an hour')
     }
 }
-
 numSize()
+//OR
 
