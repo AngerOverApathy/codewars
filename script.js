@@ -186,4 +186,14 @@
 // }
 // numSize(num)
 //OR
+// function numSize(arr) {
+//     if (arr[0] < arr.at(-1)) {
+//         alert('Hi')
+//     } else if (arr[0] > arr.at(-1)) {
+//         alert('Bye')
+//     } else {
+//         alert('We close in an hour')
+//     }
+// }
+// numSize(num)
 
