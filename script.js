@@ -187,9 +187,9 @@
 // numSize(num)
 //OR
 // function numSize(arr) {
-//     if (arr[0] < arr.at(-1)) {
+//     if (arr[0] < arr[arr.length-1]) {
 //         alert('Hi')
-//     } else if (arr[0] > arr.at(-1)) {
+//     } else if (arr[0] > arr[arr.length-1]) {
 //         alert('Bye')
 //     } else {
 //         alert('We close in an hour')
