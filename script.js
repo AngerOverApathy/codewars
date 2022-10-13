@@ -197,3 +197,9 @@
 // }
 // numSize(num)
 
+let arr1=[1,5,10]
+
+arr1.forEach((x,i))
+
+alert(massMultiply(arr1))
+
