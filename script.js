@@ -197,14 +197,20 @@
 // }
 // numSize(num)
 
-let arr1=[1,5,10]
-let sum = 1
-function massMultiply(arr) {
-    for (let i=0; i<arr.length; i++) {
-        sum = sum * arr[i]
-        return sum
-    }
-}
 
-alert(massMultiply(arr1))
+function massMultiply(arr) {
+    let sum = 1
+    arr.forEach(num => sum *= num);
+    alert(sum)
+}
+massMultiply([10,20,30])
+//OR
+// function massMultiply(arr) {
+//     let sum = 1
+//     for (let i=0; i<arr.length; i++) {
+//         sum = sum*arr[i]
+//         return sum
+//     }
+// }
+// alert(massMultiply(arr1))
 
