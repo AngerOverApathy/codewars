@@ -214,11 +214,13 @@
 // }
 // massMultiply([10,20,30])
 
-//create a function that takes in an array of numbers and return a new array of every even number
-function returnEven(arr) {
-    arr.map(num => num % 2 == 0)
-    return arr
+//create a function that takes in an array of numbers
+//return a new array of every even number
+function returnEvenNums(arr) {
+    let evenNums = arr.filter(num => num % 2 ==0 )
+    return evenNums
 }
+let array = [1,2,3,4,5,6,7,8,9,10]
+console.log(returnEvenNums(array))
 
-alert(returnEven([1,2,3,4,5,6,7,8,9,10]))
 
