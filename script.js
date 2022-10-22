@@ -224,11 +224,10 @@ let array = [1,2,3,4,5,6,7,8,9,10]
 // }
 // console.log(returnEvenNums(array))
 //OR
-function returnEven(arr){
-    let evens = []
-    arr.forEach(num => num % 2 === 0 ? evens.push(num) : console.log('whoops'));
-    return evens
-}
-
-console.log(returnEven([1,2,3,4,5]))
+// function returnEven(arr){
+//     let evens = []
+//     arr.forEach(num => num % 2 === 0 ? evens.push(num) : console.log('whoops'));
+//     return evens
+// }
+// console.log(returnEven([1,2,3,4,5]))
 
