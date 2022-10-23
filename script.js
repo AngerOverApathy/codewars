@@ -216,7 +216,7 @@
 
 //create a function that takes in an array of numbers
 //return a new array of every even number
-let array = [1,2,3,4,5,6,7,8,9,10]
+// let array = [1,2,3,4,5,6,7,8,9,10]
 
 // function returnEvenNums(arr) {
 //     let evenNums = arr.filter(num => num % 2 ==0 )
