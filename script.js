@@ -230,4 +230,24 @@
 //     return evens
 // }
 // console.log(returnEven([1,2,3,4,5]))
+//----------------------//
+// let faveDrink = 'Thai Tea'
+// console.log(faveDrink)
+//----------------------//
+// let sentence = 'Do you have an apple?'
+// let sentenceCheck = sentence.includes('apple')
+// console.log(sentenceCheck)
+//----------------------//
+let game=['Rock','Paper','Scissors']
+let go;
+
+let cpu = function botsChoice(arr){
+    let go=arr[Math.floor(Math.random() * arr.length)]
+    return go;
+}
+
+
+
+
+
 
