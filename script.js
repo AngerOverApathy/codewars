@@ -261,6 +261,7 @@ const getComputerChoice = () => {
     }
   };
 
+console.log(getComputerChoice)
 
 
 
