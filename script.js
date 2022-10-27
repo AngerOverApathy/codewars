@@ -258,10 +258,19 @@ const getComputerChoice = () => {
       case 2:
         return 'scissors';
         break;
+      default:
+        console.log('Not an option')
     }
   };
+console.log(getComputerChoice())
 
-console.log(getComputerChoice)
+let userChoice = document.getElementById('user-choice').value
+
+function usersChoice(choice) {
+    if (choice === 'rock' && randomNumber === 'scissors') {
+        alert('You win!')
+    }
+}
 
 
 
