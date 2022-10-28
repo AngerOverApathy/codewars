@@ -265,8 +265,11 @@ const getComputerChoice = () => {
 console.log(getComputerChoice())
 
 let userChoice = document.getElementById('user-choice').value
+const button = document.getElementById('btn')
+button.addEventListener('click', usersChoice(userChoice))
 
 function usersChoice(choice) {
+    getComputerChoice(randomNumber);
     if (choice === 'rock' && randomNumber === 'scissors') {
         alert('You win!')
     }
