@@ -264,11 +264,11 @@ const getComputerChoice = () => {
   };
 console.log(getComputerChoice())
 
-let userInput = document.getElementById('user-choice').value
+let userInput = document.getElementById('user-choice')
 const button = document.getElementById('btn')
 let showChoice = document.getElementById('show-choice')
 button.addEventListener('click', function showChoice() {
-    
+    showChoice.innerHTML = userInput.value
 })
 
 
