@@ -262,7 +262,6 @@ const getComputerChoice = () => {
         console.log('Not an option')
     }
   };
-console.log(getComputerChoice())
 
 let userInput = document.getElementById('user-choice')
 const button = document.getElementById('btn')
