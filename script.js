@@ -263,15 +263,15 @@ const getComputerChoice = () => {
     }
   };
 
-let userInput = document.getElementById('user-choice')
+let userInput = document.getElementById('choice')
 const button = document.getElementById('btn')
 let showChoice = document.getElementById('show-choice')
 
 function showUserChoice() {
-    showChoice.innerHTML = userInput.value
+    showChoice.innerHTML = userInput.value;
 }
 
-button.addEventListener('click', showUserChoice())
+button.addEventListener('click', showUserChoice)
 
 
 
