@@ -267,11 +267,18 @@ let userInput = document.getElementById('choice')
 const button = document.getElementById('btn')
 let showChoice = document.getElementById('show-choice')
 
-button.addEventListener('click', showUserChoice)
+button.addEventListener('click', function(choice){
+  choice = userInput.value
+  console.log(choice)
+
+  showUserChoice()
+})
 
 function showUserChoice() {
   showChoice.innerHTML = userInput.value;
 }
+
+
 
 
 
