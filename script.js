@@ -269,7 +269,11 @@ let showChoice = document.getElementById('show-choice')
 
 button.addEventListener('click', function(choice){
   choice = userInput.value
-  console.log(choice)
+  if (choice === 'rock') {
+    console.log(choice)
+  } else { 
+    console.log('not a rock')
+  }
 
   showUserChoice()
 })
