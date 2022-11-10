@@ -238,49 +238,46 @@
 // let sentenceCheck = sentence.includes('apple')
 // console.log(sentenceCheck)
 //----------------------//
-// let game=['Rock','Paper','Scissors']
-// let go;
 
-// let cpu = function botsChoice(arr){
-//     let go=arr[Math.floor(Math.random() * arr.length)]
-//     return go;
-// }
-
-const getComputerChoice = () => {
-    const randomNumber = Math.floor(Math.random() * 3);
-    switch(randomNumber) {
-      case 0:
-        return 'rock';
-        break;
-      case 1:
-        return 'paper';
-        break;
-      case 2:
-        return 'scissors';
-        break;
-      default:
-        console.log('Not an option')
-    }
-  };
+// const getComputerChoice = () => {
+//   const randomNumber = Math.floor(Math.random() * 3);
+//   switch(randomNumber) {
+//     case 0:
+//       return 'rock';
+//       break;
+//     case 1:
+//       return 'paper';
+//       break;
+//     case 2:
+//       return 'scissors';
+//       break;
+//     default:
+//       console.log('Not an option')
+//   }
+// };
 
 let userInput = document.getElementById('choice')
 const button = document.getElementById('btn')
 let showChoice = document.getElementById('show-choice')
+let showBotChoice = document.getElementById('bot-pick')
+
+let game=['Rock','Paper','Scissors']
 
 button.addEventListener('click', function(choice){
-  choice = userInput.value
-  if (choice === 'rock') {
-    console.log(choice)
-  } else { 
-    console.log('not a rock')
-  }
+  function botsChoice(arr){
+    let botPick=arr[Math.floor(Math.random() * arr.length)]
+    return botPick;
+}
 
-  showUserChoice()
+function showBothChoices() {
+  showChoice.innerHTML = userInput.value;
+  showBotChoice.innerHTML = botsChoice(game)
+}
+
+  console.log(botsChoice(game))
+  showBothChoices()
 })
 
-function showUserChoice() {
-  showChoice.innerHTML = userInput.value;
-}
 
 
 
