@@ -271,15 +271,15 @@ button.addEventListener('click', function(choice){
     return botPick;
   }
 
-  // function showBothChoices() {
-  //   showChoice.innerHTML = userInput.value;
-  //   showBotChoice.innerHTML = botsChoice(game)
-  // }
+  function showBothChoices() {
+    showChoice.innerHTML = userInput.value;
+    showBotChoice.innerHTML = botsChoice(game)
+  }
 
-  // console.log(botsChoice(game))
-  // showBothChoices()
+  console.log(botsChoice(game))
+  showBothChoices()
   botsChoice(game)
-  checkChoice(userInput)
+  checkChoice(userInput.value)
   
 })
 
