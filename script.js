@@ -260,11 +260,9 @@ let userInput = document.getElementById('choice')
 const button = document.getElementById('btn')
 let showChoice = document.getElementById('show-choice')
 let showBotChoice = document.getElementById('bot-pick')
-
+let game=['Rock','Paper','Scissors']
 
 button.addEventListener('click', function(choice){
-
-  let game=['Rock','Paper','Scissors']
 
   function botsChoice(arr){
     let botPick=arr[Math.floor(Math.random() * arr.length)]
@@ -276,26 +274,29 @@ button.addEventListener('click', function(choice){
     showBotChoice.innerHTML = botsChoice(game)
   }
 
-  console.log(botsChoice(game))
+  function checkChoice(choice){
+    let cpuChoice = botsChoice(game)
+    console.log(cpuChoice)
+
+    if (choice === 'rock' && cpuChoice === 'scissors') {
+      console.log('You win')
+    } else if (choice === 'paper' && cpuChoice === 'rock') {
+      console.log('You win')
+    } else if (choice === 'scissors' && cpuChoice === 'paper') {
+      console.log('You win')
+    } else if (choice === cpuChoice) {
+      console.log("It's a tie")
+    } else {
+      console.log('You lose')
+    }
+  }
+  
+
+  checkChoice('rock')
   showBothChoices()
-  botsChoice(game)
-  checkChoice(userInput.value)
   
 })
 
-function checkChoice(choice){
-  if (choice === 'rock' && cpuChoice === 'scissors') {
-    console.log('You win')
-  } else if (choice === 'paper' && cpuChoice === 'rock') {
-    console.log('You win')
-  } else if (choice === 'scissors' && cpuChoice === 'paper') {
-    console.log('You win')
-  } else if (choice === cpuChoice) {
-    console.log("It's a tie")
-  } else {
-    console.log('You lose')
-  }
-}
 
 
 
