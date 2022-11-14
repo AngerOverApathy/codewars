@@ -279,15 +279,15 @@ button.addEventListener('click', function(choice){
     console.log(cpuChoice)
 
     if (choice === 'rock' && cpuChoice === 'scissors') {
-      console.log('You win')
+      alert('You win')
     } else if (choice === 'paper' && cpuChoice === 'rock') {
-      console.log('You win')
+      alert('You win')
     } else if (choice === 'scissors' && cpuChoice === 'paper') {
-      console.log('You win')
+      alert('You win')
     } else if (choice === cpuChoice) {
-      console.log("It's a tie")
+      alert("It's a tie")
     } else {
-      console.log('You lose')
+      alert('You lose')
     }
   }
   
