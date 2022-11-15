@@ -276,6 +276,7 @@ button.addEventListener('click', function(choice){
 
   function checkChoice(choice){
     let cpuChoice = botsChoice(game)
+    showBothChoices()
     console.log(cpuChoice)
 
     if (choice === 'rock' && cpuChoice === 'scissors') {
@@ -292,9 +293,7 @@ button.addEventListener('click', function(choice){
   }
   
 
-  checkChoice('rock')
-  showBothChoices()
-  
+  checkChoice(userInput.value)
 })
 
 
