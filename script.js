@@ -275,22 +275,18 @@ button.addEventListener('click', function(choice){
   }
 
   function checkChoice(choice){
-    let cpuChoice = botsChoice(game)
+    let cpuChoice = botsChoice(game).toLowerCase()
     showBothChoices()
-    console.log(cpuChoice)
 
-    if (choice === 'rock' && cpuChoice === 'scissors') {
-      alert('You win')
-    } else if (choice === 'paper' && cpuChoice === 'rock') {
-      alert('You win')
-    } else if (choice === 'scissors' && cpuChoice === 'paper') {
-      alert('You win')
-    } else if (choice === cpuChoice) {
+    setTimeout(function(){
+      if (choice === cpuChoice) {
       alert("It's a tie")
+    } else if ((choice === 'paper' && cpuChoice === 'rock') || (choice === 'scissors' && cpuChoice === 'paper') || (choice === 'rock' && cpuChoice === 'scissors')) {
+      alert("You win!")
     } else {
       alert('You lose')
     }
-  }
+  }, 500)}
   
 
   checkChoice(userInput.value)
