@@ -262,7 +262,7 @@ let showChoice = document.getElementById('show-choice')
 let showBotChoice = document.getElementById('bot-pick')
 let game=['Rock','Paper','Scissors']
 
-button.addEventListener('click', function(choice){
+button.addEventListener('click', function(){
 
   function botsChoice(arr){
     let botPick=arr[Math.floor(Math.random() * arr.length)]
@@ -275,10 +275,11 @@ button.addEventListener('click', function(choice){
   }
 
   function checkChoice(choice){
-    let cpuChoice = botsChoice(game).toLowerCase()
     showBothChoices()
 
     setTimeout(function(){
+      let cpuChoice = botsChoice(game)
+  
       if (choice === cpuChoice) {
       alert("It's a tie")
     } else if ((choice === 'paper' && cpuChoice === 'rock') || (choice === 'scissors' && cpuChoice === 'paper') || (choice === 'rock' && cpuChoice === 'scissors')) {
