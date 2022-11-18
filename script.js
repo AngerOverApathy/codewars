@@ -260,39 +260,34 @@ let userInput = document.getElementById('choice')
 const button = document.getElementById('btn')
 let showChoice = document.getElementById('show-choice')
 let showBotChoice = document.getElementById('bot-pick')
-let game=['Rock','Paper','Scissors']
+let game=['rock','paper','scissors']
 
 button.addEventListener('click', function(){
-
-  function botsChoice(arr){
-    let botPick=arr[Math.floor(Math.random() * arr.length)]
-    return botPick;
-  }
-
-  function showBothChoices() {
-    showChoice.innerHTML = userInput.value;
-    showBotChoice.innerHTML = botsChoice(game)
-  }
-
-  function checkChoice(choice){
-    showBothChoices()
-
-    setTimeout(function(){
-      let cpuChoice = botsChoice(game)
-  
-      if (choice === cpuChoice) {
-      alert("It's a tie")
-    } else if ((choice === 'paper' && cpuChoice === 'rock') || (choice === 'scissors' && cpuChoice === 'paper') || (choice === 'rock' && cpuChoice === 'scissors')) {
-      alert("You win!")
-    } else {
-      alert('You lose')
-    }
-  }, 500)}
-  
-
   checkChoice(userInput.value)
+  showBothChoices()
 })
 
+function checkChoice(choice){
+  let cpuChoice = botsChoice(game)
+
+    if ((choice === 'scissors' && cpuChoice === 'paper') || (choice === 'rock' && cpuChoice === 'scissors') || (choice === 'paper' && cpuChoice === 'rock')) {
+    alert("You win!")
+  } else if (choice === cpuChoice) {
+    alert("It's a tie")
+  } else {
+    alert('You lose')
+  }
+}
+
+function showBothChoices() {
+  showChoice.innerHTML = userInput.value;
+  showBotChoice.innerHTML = botsChoice(game)
+}
+
+function botsChoice(arr){
+  let botPick=arr[Math.floor(Math.random() * arr.length)]
+  return botPick;
+}
 
 
 
