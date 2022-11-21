@@ -266,17 +266,15 @@ button.addEventListener('click', function(){
   let playerChoice = userInput.value
   
   checkChoice(playerChoice)
-  showBothChoices()
 })
 
 function botsChoice(arr){
-  let botPick=arr[Math.floor(Math.random() * arr.length)]
-  return botPick;
+  rr[Math.floor(Math.random() * arr.length)]
 }
 
 function checkChoice(choice){
   let cpuChoice = botsChoice(game)
-  console.log(cpuChoice)
+  console.log(cpuChoice + 'checkchoice console')
 
     if ((choice === 'scissors' && cpuChoice === 'paper') || (choice === 'rock' && cpuChoice === 'scissors') || (choice === 'paper' && cpuChoice === 'rock')) {
     alert("You win!")
@@ -285,12 +283,11 @@ function checkChoice(choice){
   } else {
     alert('You lose')
   }
-}
 
-function showBothChoices() {
   showChoice.innerHTML = userInput.value;
   showBotChoice.innerHTML = botsChoice(game)
 }
+
 
 
 
