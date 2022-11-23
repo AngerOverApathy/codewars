@@ -285,7 +285,6 @@ function checkChoice(choice){
   } else {
     alert('You lose')
   }
-
 }
 
 
