@@ -7,10 +7,10 @@
 // }
 // sum(numArr)
 
-function squareNum(arr){
-  for (let i=0;i<arr.length;i++){
-    let numSquared = Math.pow(arr[i],2)
-    console.log(numSquared)
-  }
-}
-squareNum(numArr)
+// function squareNum(arr){
+//   for (let i=0;i<arr.length;i++){
+//     let numSquared = Math.pow(arr[i],2)
+//     console.log(numSquared)
+//   }
+// }
+// squareNum(numArr)
