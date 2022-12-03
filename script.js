@@ -18,9 +18,9 @@
 //   return [...s].reverse().join("");
 // }
 //OR
-let string="I am a string"
-function reverseString(str){
-  return str.split("").reverse().join("");
-}
+// let string="I am a string"
+// function reverseString(str){
+//   return str.split("").reverse().join("");
+// }
 
-console.log(reverseString(string))
+// console.log(reverseString(string))
