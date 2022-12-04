@@ -22,5 +22,12 @@
 // function reverseString(str){
 //   return str.split("").reverse().join("");
 // }
-
 // console.log(reverseString(string))
+
+function isPalindrome(str){
+  let reversed = str.split('').reverse().join('')
+  if (reversed === str) {
+    console.log('true')
+  }
+}
+isPalindrome('racecar')
