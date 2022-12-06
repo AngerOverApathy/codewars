@@ -7,6 +7,11 @@
 // }
 // sum(numArr)
 
+// const result = numArr.reduce((sum, value) => {
+//   return sum + value
+// })
+// console.log(result)
+
 // function squareNum(arr){
 //   for (let i=0;i<arr.length;i++){
 //     let numSquared = Math.pow(arr[i],2)
@@ -24,10 +29,10 @@
 // }
 // console.log(reverseString(string))
 
-function isPalindrome(str){
-  let reversed = str.split('').reverse().join('') //.split will turn string into array of letters
-  if (reversed === str) {
-    console.log('true')
-  }
-}
-isPalindrome('racecar')
+// function isPalindrome(str){
+//   let reversed = str.split('').reverse().join('') //.split will turn string into array of letters
+//   if (reversed === str) {
+//     console.log('true')
+//   }
+// }
+// isPalindrome('racecar')
