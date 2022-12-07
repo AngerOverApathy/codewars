@@ -36,3 +36,19 @@
 //   }
 // }
 // isPalindrome('racecar')
+
+let mouse = {
+  color: 'black',
+  size: 'small',
+  wire: 'wireless',
+  shape: 'ergonomic',
+  function(){
+    console.log('click')
+  },
+  function(){
+    console.log('scroll')
+  },
+  function(){
+    console.log('close tab')
+  }
+}
