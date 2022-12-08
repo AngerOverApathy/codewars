@@ -37,18 +37,18 @@
 // }
 // isPalindrome('racecar')
 
-let mouse = {
-  color: 'black',
-  size: 'small',
-  wire: 'wireless',
-  shape: 'ergonomic',
-  function(){
-    console.log('click')
-  },
-  function(){
-    console.log('scroll')
-  },
-  function(){
-    console.log('close tab')
-  }
+let mouse = {}
+mouse.color= 'black',
+mouse.size= 'small',
+mouse.wire= 'wireless',
+mouse.shape= 'ergonomic',
+
+mouse.click = function(){
+  console.log('click')
+},
+mouse.scroll = function(){
+  console.log('scroll')
+},
+mouse.closeTab = function(){
+  console.log('close tab')
 }
