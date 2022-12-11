@@ -52,3 +52,22 @@
 // mouse.closeTab = function(){
 //   console.log('close tab')
 // }
+
+function MakeFighter(fighterName, fighterLevel, fighterWeapon, fighterAlignment) {
+  this.name=fighterName,
+  this.level=fighterLevel,
+  this.weapon=fighterWeapon,
+  this.alignment=fighterAlignment,
+  this.fight=function(){
+    alert('Fight!')
+  },
+  this.dodge=function(){
+    alert('Dodged!')
+  },
+  this.heal=function(){
+    slert('healing')
+  }
+}
+
+let chunLi = new MakeFighter('ChunLi', 8, 'Scimitar', 'Good')
+console.log()
