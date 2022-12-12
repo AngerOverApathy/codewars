@@ -70,4 +70,4 @@ function MakeFighter(fighterName, fighterLevel, fighterWeapon, fighterAlignment)
 }
 
 let chunLi = new MakeFighter('ChunLi', 8, 'Scimitar', 'Good')
-console.log()
+console.log(chunLi)
