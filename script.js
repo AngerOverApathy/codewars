@@ -71,3 +71,16 @@
 
 // let chunLi = new MakeFighter('ChunLi', 8, 'Scimitar', 'Good')
 // console.log(chunLi)
+
+let question = 'who are you?'
+let answer = 'i am sam'
+
+function alertQuestion(str){
+  if (str.includes('?')){
+    alert(str)
+  } else {
+    alert('no questions')
+  }
+}
+console.log(alertQuestion(question))
+console.log
