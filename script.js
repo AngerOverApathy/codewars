@@ -83,4 +83,4 @@ function alertQuestion(str){
   }
 }
 console.log(alertQuestion(question))
-console.log
+console.log(alertQuestion(answer))
