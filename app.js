@@ -287,18 +287,18 @@
 //   }
 // }
 
-let question = 'who are you?'
-let answer = 'i am sam'
+// let question = 'who are you?'
+// let answer = 'i am sam'
 
-function alertQuestion(str){
-  if (str.includes('?')){
-    alert(str)
-  } else {
-    alert('no questions')
-  }
-}
-console.log(alertQuestion(question))
-console.log(alertQuestion(answer))
+// function alertQuestion(str){
+//   if (str.includes('?')){
+//     alert(str)
+//   } else {
+//     alert('no questions')
+//   }
+// }
+// console.log(alertQuestion(question))
+// console.log(alertQuestion(answer))
 
 
 
