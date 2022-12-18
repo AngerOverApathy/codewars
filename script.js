@@ -72,3 +72,6 @@
 // let chunLi = new MakeFighter('ChunLi', 8, 'Scimitar', 'Good')
 // console.log(chunLi)
 
+let team = 'jr.dev senior.dev jr.dev boos hr boss jr.dev'
+console.log(team)
+console.log(team.replaceAll('jr.dev', 'software engineer'))
