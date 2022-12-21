@@ -72,3 +72,8 @@
 // let chunLi = new MakeFighter('ChunLi', 8, 'Scimitar', 'Good')
 // console.log(chunLi)
 
+function playGame(arr){
+  for(let i = 0; i<arr.length; i++){
+    
+  }
+}

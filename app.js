@@ -287,6 +287,8 @@
 //   }
 // }
 
+
+
 // let question = 'who are you?'
 // let answer = 'i am sam'
 
@@ -300,7 +302,7 @@
 // console.log(alertQuestion(question))
 // console.log(alertQuestion(answer))
 
-let team = 'jr.dev senior.dev jr.dev boos hr boss jr.dev'
-console.log(team)
-console.log(team.replaceAll('jr.dev', 'software engineer'))
+// let team = 'jr.dev senior.dev jr.dev boos hr boss jr.dev'
+// console.log(team)
+// console.log(team.replaceAll('jr.dev', 'software engineer'))
 
