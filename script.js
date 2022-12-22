@@ -72,8 +72,14 @@
 // let chunLi = new MakeFighter('ChunLi', 8, 'Scimitar', 'Good')
 // console.log(chunLi)
 
+let gameArr = ['rock', 'paper', 'scissors']
+function botsChoice(arr){
+  let botPick=arr[Math.floor(Math.random() * arr.length)]
+  return botPick;
+}
+
 function playGame(arr){
   for(let i = 0; i<arr.length; i++){
-    
+
   }
 }
