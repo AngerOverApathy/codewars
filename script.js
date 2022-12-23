@@ -77,6 +77,7 @@ function botsChoice(arr){
   let botPick=arr[Math.floor(Math.random() * arr.length)]
   return botPick;
 }
+botsChoice(gameArr)
 
 function playGame(arr){
   for(let i = 0; i<arr.length; i++){
