@@ -73,10 +73,9 @@
 // console.log(chunLi)
 
 let gameArr = ['rock', 'paper', 'scissors']
-let choice = 'paper'
+let choice;
 function botsChoice(arr, choice){
   let botPick=arr[Math.floor(Math.random() * arr.length)]
-  console.log(botPick)
 
 if ((choice === 'scissors' && botPick === 'paper') || (choice === 'rock' && botPick === 'scissors') || (choice === 'paper' && botPick === 'rock')) {
       alert("You win!")
@@ -86,6 +85,7 @@ if ((choice === 'scissors' && botPick === 'paper') || (choice === 'rock' && botP
       alert('You lose')
     }
 }
+
 botsChoice(gameArr)
 
 function playGame(arr){
