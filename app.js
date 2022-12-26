@@ -299,6 +299,8 @@
 //     alert('no questions')
 //   }
 // }
+//OR
+// alert(str.endsWith('?'))
 // console.log(alertQuestion(question))
 // console.log(alertQuestion(answer))
 

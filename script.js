@@ -74,9 +74,9 @@
 
 let gameArr = ['rock', 'paper', 'scissors']
 let choice;
+
 function botsChoice(arr, choice){
   let botPick=arr[Math.floor(Math.random() * arr.length)]
-
 if ((choice === 'scissors' && botPick === 'paper') || (choice === 'rock' && botPick === 'scissors') || (choice === 'paper' && botPick === 'rock')) {
       alert("You win!")
     } else if (choice === botPick) {
@@ -86,10 +86,9 @@ if ((choice === 'scissors' && botPick === 'paper') || (choice === 'rock' && botP
     }
 }
 
-botsChoice(gameArr)
-
 function playGame(arr){
   for(let i = 0; i<arr.length; i++){
-
+    console.log(arr[i])
   }
 }
+playGame(gameArr)
