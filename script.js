@@ -73,7 +73,6 @@
 // console.log(chunLi)
 
 let gameArr = ['rock', 'paper', 'scissors']
-let choice;
 
 function botsChoice(arr, choice){
   let botPick=arr[Math.floor(Math.random() * arr.length)]
@@ -87,8 +86,9 @@ if ((choice === 'scissors' && botPick === 'paper') || (choice === 'rock' && botP
 }
 
 function playGame(arr){
+  botsChoice(gameArr, 'scissors')
   for(let i = 0; i<arr.length; i++){
     console.log(arr[i])
   }
 }
-playGame(gameArr)
+console.log(playGame(gameArr))
