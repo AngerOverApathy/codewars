@@ -69,26 +69,3 @@
 //   }
 // }
 
-// let chunLi = new MakeFighter('ChunLi', 8, 'Scimitar', 'Good')
-// console.log(chunLi)
-
-// let gameArr = ['rock', 'paper', 'scissors']
-
-// function botsChoice(arr, choice){
-//   let botPick=arr[Math.floor(Math.random() * arr.length)]
-// if ((choice === 'scissors' && botPick === 'paper') || (choice === 'rock' && botPick === 'scissors') || (choice === 'paper' && botPick === 'rock')) {
-//       alert("You win!")
-//     } else if (choice === botPick) {
-//       alert("It's a tie")
-//     } else {
-//       alert('You lose')
-//     }
-// }
-
-// function playGame(arr){
-//   botsChoice(gameArr, 'scissors')
-//   for(let i = 0; i<arr.length; i++){
-//     console.log(arr[i])
-//   }
-// }
-// console.log(playGame(gameArr))
