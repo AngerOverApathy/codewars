@@ -65,7 +65,7 @@
 //     alert('Dodged!')
 //   },
 //   this.heal=function(){
-//     slert('healing')
+//     alert('healing')
 //   }
 // }
 
