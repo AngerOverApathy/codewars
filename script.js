@@ -69,3 +69,13 @@
 //   }
 // }
 
+let nums = [10, 20, 30]
+function addNums(arr){
+  let sum=1
+  for (let i=0;i<arr[i].length;i++){
+    sum += arr
+    return sum
+  }
+}
+alert(addNums(nums))
+
