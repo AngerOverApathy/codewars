@@ -332,3 +332,12 @@
 // }
 // console.log(playGame(gameArr))
 
+let nums = [10, 20, 30]
+function addNums(arr){
+  let sum=0
+  for (let i=0;i<arr.length;i++){
+    sum += arr[i]
+  }
+  alert(sum)
+}
+addNums(nums)
