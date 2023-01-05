@@ -69,5 +69,10 @@
 //   }
 // }
 
+let nums = [2,4,6,8,10]
+function squareNUms(arr){
+  arr.forEach(Math.pow(arr[i], 2))
+  return arr[i]
+}
 
-
+console.log(squareNUms(nums))
