@@ -341,3 +341,13 @@
 //   alert(sum)
 // }
 // addNums(nums)
+
+
+let nums = [2,4,6,8,10]
+function squareNUms(arr){
+  arr.forEach((x,i)=>{
+    arr[i] = Math.pow(x,2)
+  })
+  return arr
+}
+console.log(squareNUms(nums))
