@@ -75,4 +75,4 @@ function isPalindrome(str){
     console.log('true')
   }
 }
-isPalindrome('racecar'
+isPalindrome('racecar')
