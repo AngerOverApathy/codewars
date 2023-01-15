@@ -341,6 +341,8 @@
 //   alert(sum)
 // }
 // addNums(nums)
+//OR
+//alert(nums.reduce((acc,c) => acc + c,0))
 
 // let nums = [2,4,6,8,10]
 // function squareNUms(arr){
