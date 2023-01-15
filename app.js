@@ -356,3 +356,11 @@
 //   return str.split("").reverse().join("");
 // }
 // console.log(reverseString(string))
+
+function isPalindrome(str){
+    let reversed = str.split('').reverse().join('') //.split will turn string into array of letters
+    if (reversed === str) {
+      console.log('true')
+    }
+  }
+  isPalindrome('racecar')
