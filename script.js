@@ -69,6 +69,7 @@
 //   }
 // }
 
-var stringToNumber = function(str){
-  return parseInt(str);
-}
+//turn a string into a number
+// var stringToNumber = function(str){
+//   return parseInt(str);
+// }
