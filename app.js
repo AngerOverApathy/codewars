@@ -352,6 +352,8 @@
 //   return arr
 // }
 // console.log(squareNUms(nums))
+//OR
+//let newNums = nums.map(num = num**2)
 
 // let string="I am a string"
 // function reverseString(str){
