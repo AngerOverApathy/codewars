@@ -73,3 +73,19 @@
 // var stringToNumber = function(str){
 //   return parseInt(str);
 // }
+
+let dog = {
+  name: 'Jerry',
+  color: 'brown',
+  collar: true,
+  microchipped: true,
+  bark: function(){
+    console.log('Woof!')
+  },
+  shake: function(){
+    console.log('Shaking')
+  },
+  scratch: function(){
+    console.log('Scratch')
+  }
+}
