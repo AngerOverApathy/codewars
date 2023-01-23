@@ -89,3 +89,19 @@
 //     console.log('Scratch')
 //   }
 // }
+
+function MakeSkater(){
+  this.name = skaterName
+  this.shoe = skaterShoe
+  this.expertise = skaterExpertise
+  this.hairColor = skaterColor
+  this.catchphrase = function(){
+    alert("You're gonna lose!")
+  }
+  this.specialMove = function(){
+    alert('Kickflip!')
+  }
+  this.speedUp = function() {
+    alert("I'm speeding up!")
+  }
+}
