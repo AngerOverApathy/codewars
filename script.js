@@ -90,7 +90,7 @@
 //   }
 // }
 
-function MakeSkater(){
+function MakeSkater(skaterName,skaterShoe, skaterExpertise, skaterColor){
   this.name = skaterName
   this.shoe = skaterShoe
   this.expertise = skaterExpertise
