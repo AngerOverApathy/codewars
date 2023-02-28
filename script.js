@@ -8,3 +8,7 @@ pizza.ready = true
 pizza.burn = function(){
     console.log("I'm gonna burn your mouth!")
 }
+
+pizza.consume = function(){
+    console.log("You're eating me!")
+}
