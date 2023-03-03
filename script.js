@@ -12,3 +12,7 @@ pizza.burn = function(){
 pizza.consume = function(){
     console.log("You're eating me!")
 }
+
+pizza.description = function(){
+    console.log(`I am topped with ${pizza.firstTopping}, ${pizza.secondTopping}, and ${pizza.seasoning}`)
+}
