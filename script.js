@@ -13,3 +13,5 @@ function MakePizza(pizzaToppings, pizzaCrust, pizzaSeasoning, pizzaReady){
         console.log("You're eating me!")
     }
 }
+
+let pizza = new MakePizza (['pepperoni', 'cheese', 'mushrooms'], 'deep dish', 'red pepper flakes', true)
