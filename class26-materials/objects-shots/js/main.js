@@ -3,9 +3,9 @@ fetch("https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita")
     .then(res => res.json())
     .then(data => {
         console.log(data.drinks[0])
-        // document.querySelector('h2').src = data.strDrink
-        // document.querySelector('img').src = data.strImageSource
-        // document.querySelector('h3').src = strInstructions
+        document.querySelector('h2').innerText = data.drinks[0].strDrink
+        document.querySelector('img').src = data.drinks[0].strImageSource
+        document.querySelector('h3').innerText = data.drinks[0].strInstructions
     })
     .catch(err => {
         console.log(`error ${err}`)
