@@ -17,3 +17,5 @@ class MakeNetflixShow{
         console.log('Here are some bloopers')
     }
 }
+
+let newShow = new MakeNetflixShow('Bridgerton', 'Era Piece', '60 minutes', 'Instrumental')
