@@ -18,8 +18,9 @@ function drawTwo(){
     fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
-        console.log(data)
-        deckId = data.deck_id
+       document.querySelector('#player1').src = data.cards[0].image
+       document.querySelector('#player2').src = data.cards[1].image
+
       })
       .catch(err => {
           console.log(`error ${err}`)
