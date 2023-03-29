@@ -4,17 +4,18 @@ fetch('https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1')
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         console.log(data)
+        deckId = data.deck_id
       })
       .catch(err => {
           console.log(`error ${err}`)
       });
 
-// document.querySelector('button').addEventListener('click', drawTwo)
+document.querySelector('button').addEventListener('click', drawTwo)
 
-// function drawTwo(){
-//   const choice = document.querySelector('input').value
+function drawTwo(){
+const url = `https://deckofcardsapi.com/api/deck/${deckID}/draw/?count=2`
 
-//   const url = `https://api.nasa.gov/planetary/apod?api_key=JzpXPV9rPsbeHv95nKzwfsNA9FcgPrLVVt8AJKLx&date=${choice}`
-// }
+
+}
 
 
