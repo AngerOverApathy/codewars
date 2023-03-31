@@ -13,7 +13,6 @@ document.querySelector('button').addEventListener('click', getFetch)
 // }
 
 function getFetch(){
-    anothaOne();
 
     const choice = document.querySelector('input').value
     const url = `https://openlibrary.org/isbn/${choice}.json`
@@ -21,9 +20,12 @@ function getFetch(){
     fetch(url)
         .then(res => res.json()) // parse response as JSON
         .then(data => {
-            console.log(data)
-            let books = localStorage.getItem('books') + ";" + data.title
-            localStorage.setItem('books', books)
+            if (!localStorage.getItem('books')){
+                localStorage.setItem('books', data.title)
+            }else{
+                let books = localStorage.getItem('books') + ";" + data.title
+                localStorage.setItem('books', books)
+            }
             document.getElementById('title').innerText = localStorage.getItem('books')
         })
         .catch(err => {
