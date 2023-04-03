@@ -38,8 +38,7 @@ const cars = [
     { name: "BMW", isElectric: true, weight: 1350 },  
   ];
   const carTotals = cars.reduce((acc, car)=>{
-      acc += car.weight
-      return acc
+      return acc + car.weight
   }, 0)
   console.log(carTotals)
   const electricCarTotals = cars.reduce((acc, car)=>{
