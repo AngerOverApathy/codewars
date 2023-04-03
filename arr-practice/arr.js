@@ -22,6 +22,30 @@
 //     {song: "Closer", timesStreamed: 1.688, wonGrammy: false},
 //     {song: "Thinking Out Loud", timesStreamed: 1.461, wonGrammy: true}
 // ]
-
 // console.log(songs.some(grammy => grammy.wonGrammy ))
 // const allMegaHits = songs.every(song => song.timesStreamed > 1.5)
+
+// Challenge: 
+// Use reduce() to sum the weights of all the cars
+// Stretch goal: 
+// Use reduce to sum the weights of only the electric cars 
+const cars = [
+    { name: "Toyota", isElectric: false, weight: 1320 },
+    { name: "Ford", isElectric: false, weight: 1400 },
+    { name: "Volkswagen", isElectric: false, weight: 1370 },
+    { name: "Honda", isElectric: false, weight: 1375 },
+    { name: "Tesla", isElectric: true, weight: 1750 },
+    { name: "BMW", isElectric: true, weight: 1350 },  
+  ];
+  const carTotals = cars.reduce((acc, car)=>{
+      acc += car.weight
+      return acc
+  }, 0)
+  console.log(carTotals)
+  const electricCarTotals = cars.reduce((acc, car)=>{
+      if(car.isElectric){
+         acc += car.weight 
+      }
+      return acc
+  }, 0)
+  console.log(electricCarTotals)
