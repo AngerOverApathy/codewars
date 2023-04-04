@@ -38,3 +38,47 @@
 // function solution(str){
 //     return str.split('').reverse().join('')
 //   }
+
+// Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
+// function repeatStr (n, s) {
+//     return s.repeat(n);
+//   }
+
+// It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
+// function removeChar(str){
+//      return str.substring(1, str.length-1)
+//    };
+
+// Write a function that removes the spaces from the string, then return the resultant string.
+// function noSpace(x){
+//     return x.replaceAll(' ', '')
+//   }
+
+// Given an array of integers your solution should find the smallest integer.
+// class SmallestIntegerFinder {
+//     findSmallestInt(args) {
+//        return Math.min(...args)
+//     }
+//   }
+
+//count all the vowels in a string
+// function getCount(str) {
+//     return (str.match(/[aeiou]/ig)||[]).length;
+//   }
+//OR
+// program to count the number of vowels in a string
+
+// defining vowels
+// const vowels = ["a", "e", "i", "o", "u"]
+// function countVowel(str) {
+//     // initialize count
+//     let count = 0;
+//     // loop through string to test if each character is a vowel
+//     for (let letter of str.toLowerCase()) {
+//         if (vowels.includes(letter)) {
+//             count++;
+//         }
+//     }
+//     // return number of vowels
+//     return count
+// }
