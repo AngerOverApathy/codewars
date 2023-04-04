@@ -91,3 +91,21 @@
 // function invert(array) {
 //     return array.map(num => num * -1)
 //   }
+
+// Write a function which calculates the average of the numbers in a given list.
+// function findAverage(array) {
+//     let sum = array.reduce((acc, num) => acc + num,0)
+//     if (sum > 0){
+//       return sum / array.length
+//     } else {
+//       return 0
+//     }
+//   }
+
+// Given a non-empty array of integers, return the result of multiplying the values together in order
+// function grow(x){
+//     let total = x.reduce((acc, num) =>{
+//       return acc * num
+//     },1)
+//     return total
+//   }
