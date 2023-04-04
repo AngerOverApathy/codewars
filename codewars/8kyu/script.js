@@ -66,3 +66,8 @@
 //     let numArray = n.toString().split('').reverse()
 //     return numArray.map(x => parseInt(x))
 //   }
+
+// Given an array of integers, return a new array with each value doubled.
+// function maps(x){
+//     return x.map(num => num * 2)
+//   }
