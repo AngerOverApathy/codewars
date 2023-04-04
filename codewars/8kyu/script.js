@@ -80,3 +80,14 @@
 //     let needleIndex = haystack.indexOf('needle')
 //     return `found the needle at position ${needleIndex}`
 //   }
+
+// Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
+// function sum (numbers) {
+//     "use strict";
+//     return numbers.reduce((acc, count) => acc + count, 0)
+// };
+
+// Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
+// function invert(array) {
+//     return array.map(num => num * -1)
+//   }
