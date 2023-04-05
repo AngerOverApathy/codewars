@@ -53,3 +53,19 @@
 //function rowSumOddNumbers(n) {
 //     return Math.pow(n, 3);
 // }
+
+// Given an array of ones and zeroes, convert the equivalent binary value to an integer.
+// Eg: [0, 0, 0, 1] is treated as 0001 which is the binary representation of 1.
+// const binaryArrayToNumber = arr => {
+//     return parseInt(arr.join(''), 2);
+//   };
+
+// Given an array of integers, remove the smallest value. Do not mutate the original array/list. If there are multiple elements with the same value, remove the one with a lower index. If you get an empty array/list, return an empty array/list.
+// Don't change the order of the elements that are left.
+// function removeSmallest(numbers) {
+//     let copy = [...numbers]
+//     let smallest = Math.min(...numbers);
+//     let smallestIdx = numbers.indexOf(smallest)
+//     copy.splice(smallestIdx, 1)
+//     return copy
+//   }
