@@ -69,3 +69,26 @@
 //     copy.splice(smallestIdx, 1)
 //     return copy
 //   }
+
+// Write a function which takes a list of strings and returns each line prepended by the correct number.
+// The numbering starts at 1. The format is n: string. Notice the colon and space in between.
+// const number = array => array.map((n, i) => `${i + 1}: ${n}`)
+
+// In this kata you get the start number and the end number of a region and should return the count of all numbers except numbers with a 5 in it. The start and the end number are both inclusive!
+// function dontGiveMeFive(start, end)
+// {
+//   let count = 0;
+//   for(let i = start; i <= end; i++){
+//     if(i.toString().includes('5') === -1){
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+
+// 7 kyu
+// Sort array by string length
+// function sortByLength (array) {
+//     return array.sort((x,y) => x.length - y.length)
+//   };
+       

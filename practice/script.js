@@ -3,3 +3,8 @@
 //     return arr.filter(item => item >= a && item <=b)
 // }
 
+let arr = ["Telescopes", "Glasses", "Eyes", "Monocles"]
+
+arr.sort()
+
+console.log(arr.len)
