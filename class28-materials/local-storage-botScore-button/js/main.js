@@ -6,11 +6,11 @@ if(!localStorage.getItem('botScore')){
 document.getElementById('title').innerText = localStorage.getItem('books')
 document.querySelector('button').addEventListener('click', getFetch)
 
-function anothaOne(){
-    let botScore = Number(localStorage.getItem('botScore'))
-    botScore = botScore + 1
-    localStorage.setItem('botScore', botScore)
-}
+// function anothaOne(){
+//     let botScore = Number(localStorage.getItem('botScore'))
+//     botScore = botScore + 1
+//     localStorage.setItem('botScore', botScore)
+// }
 
 function getFetch(){
     anothaOne();
