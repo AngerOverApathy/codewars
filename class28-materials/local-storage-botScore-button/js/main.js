@@ -3,6 +3,7 @@ if(!localStorage.getItem('botScore')){
     localStorage.setItem('botScore', 0)
 }
 
+document.getElementById('title').innerText = localStorage.getItem('books')
 document.querySelector('button').addEventListener('click', getFetch)
 
 function anothaOne(){
@@ -21,7 +22,8 @@ function getFetch(){
         .then(res => res.json()) // parse response as JSON
         .then(data => {
             console.log(data)
-            document.getElementById('title').innerText = data.title
+            localStorage.setItem('books', data.title)
+            document.getElementById('title').innerText = localStorage.getItem('books')
         })
         .catch(err => {
             console.log(`error ${err}`)
