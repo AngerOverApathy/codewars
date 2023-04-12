@@ -6,11 +6,11 @@ if(!localStorage.getItem('botScore')){
 document.getElementById('title').innerText = localStorage.getItem('books')
 document.querySelector('button').addEventListener('click', getFetch)
 
-function anothaOne(){
-    let botScore = Number(localStorage.getItem('botScore'))
-    botScore = botScore + 1
-    localStorage.setItem('botScore', botScore)
-}
+// function anothaOne(){
+//     let botScore = Number(localStorage.getItem('botScore'))
+//     botScore = botScore + 1
+//     localStorage.setItem('botScore', botScore)
+// }
 
 function getFetch(){
     anothaOne();
@@ -22,7 +22,8 @@ function getFetch(){
         .then(res => res.json()) // parse response as JSON
         .then(data => {
             console.log(data)
-            localStorage.setItem('books', data.title)
+            let books = localStorage.getItem('books') + ";" + data.title
+            localStorage.setItem('books', books)
             document.getElementById('title').innerText = localStorage.getItem('books')
         })
         .catch(err => {
