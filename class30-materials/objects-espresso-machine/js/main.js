@@ -1,11 +1,11 @@
 //Create an espresso machine constructor that makes machines with 4 properties and 3 methods
 
 class Espresso{
-    constructor(bean, setting, steamer, frother){
-        this.bean = bean
+    constructor(color, setting, price, size){
+        this.color = color
         this.setting = setting
-        this.steamer = steamer
-        this.frother = frother
+        this.price = price
+        this.size = size
     }
     steamMilk(){
         console.log('Steaming milk')
@@ -18,4 +18,4 @@ class Espresso{
     }
 }
 
-let coffee = new Espresso('blonde', 'drip coffee', false, 'dry')
+let coffee = new Espresso('black', 'drip coffee', 150, 'medium')
