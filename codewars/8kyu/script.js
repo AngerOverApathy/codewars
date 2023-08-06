@@ -138,3 +138,7 @@
 //     return "found the needle at position " + haystack.indexOf("needle");
 //   }
 
+
+function digitize(n) {
+    return String(n).split('').reverse().map(Number);
+  }
