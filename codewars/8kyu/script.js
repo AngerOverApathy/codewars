@@ -60,6 +60,13 @@
 //     return numbers.map(num => num * num).reduce((acc, curr) => acc + curr, 0);
 //   }
 //OR
+function squareSum(numbers) {
+    let sum = 0;
+    for (let num of numbers) {
+      sum += num * num;
+    }
+    return sum;
+  }
 
 
 
