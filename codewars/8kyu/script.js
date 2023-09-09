@@ -51,6 +51,8 @@
 //     return sheep.reduce((acc, num) => num ? acc + 1 : acc, 0)
 //   }
 
+//Complete the square sum function so that it squares each number passed into it and then sums the results together.
+
 
 
 
