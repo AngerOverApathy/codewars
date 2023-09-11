@@ -47,7 +47,9 @@
 //   true,  true,  true,  true ,
 //   false, false, true,  true]
 // The correct answer would be 17.
-
+function countSheeps(sheep) {
+    return sheep.reduce((acc, num) => num ? acc + 1 : acc, 0)
+  }
 
 
 
