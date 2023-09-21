@@ -254,3 +254,5 @@
 //     // Calculating and returning the average
 //     return sum / array.length;
 //   }
+
+//We need a function that can transform a string into a number. What ways of achieving this do you know?
