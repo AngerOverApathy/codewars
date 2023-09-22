@@ -241,3 +241,16 @@
 //   }
 
 //Write a function which calculates the average of the numbers in a given list.
+// function findAverage(array) {
+//     if (array === null || array.length === 0) {
+//         return null; // Returning null to indicate that there's no average to calculate
+//     }
+    
+//     // Calculating the sum of the array elements
+//     let sum = array.reduce((accumulator, currentValue) => {
+//         return accumulator + currentValue;
+//     }, 0);
+    
+//     // Calculating and returning the average
+//     return sum / array.length;
+//   }
