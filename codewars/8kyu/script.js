@@ -239,3 +239,5 @@
 //           return accumulator;
 //       }, [0, 0])
 //   }
+
+//Write a function which calculates the average of the numbers in a given list.
