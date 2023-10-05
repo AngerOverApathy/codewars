@@ -197,4 +197,6 @@
 //  return str.substring(1, str.length - 1);
 // };
 //OR
-
+function removeChar(str) {
+    return str.slice(1, -1);
+  }
