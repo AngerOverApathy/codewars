@@ -1,3 +1,48 @@
+// You get an array of numbers, return the sum of all of the positives ones.
+// Example [1,-4,7,12] => 1 + 7 + 12 = 20
+// Note: if there is nothing to sum, the sum is default to 0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Complete the square sum function so that it squares each number passed into it and then sums the results together.
 // function squareSum(numbers){
 //     let sum = numbers.reduce((acc, nums)=>{
