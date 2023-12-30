@@ -71,11 +71,11 @@
 //     return l.filter(num => typeof num === 'number')
 //   }
 
-// In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
-// function highAndLow(numbers){
-//     let numArr = numbers.split(' ').map(Number)
-//     let highNum = Math.max(...numArr)
-//     let lowNum = Math.min(...numArr)
+In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
+function highAndLow(numbers){
+    let numArr = numbers.split(' ').map(Number)
+    let highNum = Math.max(...numArr)
+    let lowNum = Math.min(...numArr)
     
-//     return `${highNum} ${lowNum}`   
-//   }
+    return `${highNum} ${lowNum}`   
+  }
