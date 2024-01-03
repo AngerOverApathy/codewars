@@ -78,4 +78,4 @@
 //     let lowNum = Math.min(...numArr)
     
 //     return `${highNum} ${lowNum}`   
-//   }
+  }
